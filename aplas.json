@@ -22,7 +22,47 @@
       "months_to_renew_support": "33",
       "sme_email": "Pooh.Mosedale@memento.net.au",
       "vendor_phone": "+62 925 957 6966",
-      "investment_number": "259"
+      "investment_number": "259",
+      "integrations": [
+        {
+          "id": "int-440",
+          "name": "INT-440",
+          "categoryId": "f584fe23-c532-404a-bf69-4bcbcea094d3",
+          "description": "Integer ac neque. Duis bibendum.",
+          "sourceApplicationId": "b2c_engine",
+          "targetApplicationId": "social_innovation",
+          "logical_server": "CLOUD-B2B",
+          "status_color": "#FFFF21",
+          "pattern": "Sync Request-Reply",
+          "golive_date": "25/6/02",
+          "sme_name": "Gabriel Van Hault",
+          "datacentre": "Asia Pacific (Sydney)",
+          "department": "Integration",
+          "status": "Testing",
+          "sme_email": "gvanc@memento.net.au",
+          "complexity": "Low",
+          "last_deployment_date": "23/2/16"
+        },
+        {
+          "id": "int-306",
+          "name": "INT-306",
+          "categoryId": "f584fe23-c532-404a-bf69-4bcbcea094d3",
+          "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+          "sourceApplicationId": "b2c_engine",
+          "targetApplicationId": "social_innovation",
+          "logical_server": "CLOUD-B2B",
+          "status_color": "#00FF00",
+          "pattern": "Fire and Forget",
+          "golive_date": "4/9/03",
+          "sme_name": "Matelda Nuss",
+          "datacentre": "Asia Pacific (Sydney)",
+          "department": "Integration",
+          "status": "Active",
+          "sme_email": "mnussf@memento.net.au",
+          "complexity": "Medium",
+          "last_deployment_date": "9/8/17"
+        }
+      ]
     }
   ]
 }
